@@ -253,3 +253,139 @@ footer {
   padding: 20px;
   text-align: center;
 }
+
+/* Media Queries for Responsiveness */
+
+/* For tablets and smaller devices (max-width: 768px) */
+@media (max-width: 768px) {
+  nav {
+    padding: 10px;
+    text-align: center;
+  }
+
+  nav h1 {
+    font-size: 1.5rem;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+    font-size: 0.9rem;
+  }
+
+  .home-section {
+    padding: 20px;
+  }
+
+  .home-section h2 {
+    font-size: 2.5rem;
+  }
+
+  .home-section p {
+    font-size: 1.2rem;
+  }
+
+  .home-section button {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+
+  .about-section {
+    padding: 50px 0;
+  }
+
+  .about-section h1 {
+    font-size: 2rem;
+  }
+
+  .about-section p {
+    font-size: 1rem;
+  }
+
+  .project-card {
+    padding: 15px;
+    font-size: 0.9rem;
+  }
+
+  .form-container {
+    padding: 20px;
+  }
+
+  .form-container input,
+  .form-container textarea {
+    padding: 10px;
+  }
+
+  .form-container button {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+
+  footer {
+    padding: 15px;
+    font-size: 0.9rem;
+  }
+}
+
+/* For mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+  nav h1 {
+    font-size: 1.2rem;
+  }
+
+  nav a {
+    font-size: 0.8rem;
+  }
+
+  .home-section {
+    height: auto;
+    padding: 20px;
+  }
+
+  .home-section h2 {
+    font-size: 2rem;
+  }
+
+  .home-section p {
+    font-size: 1rem;
+  }
+
+  .home-section button {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
+  .about-section h1 {
+    font-size: 1.5rem;
+  }
+
+  .about-section p {
+    font-size: 0.9rem;
+  }
+
+  .project-card {
+    padding: 10px;
+  }
+
+  .project-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .project-card p {
+    font-size: 0.9rem;
+  }
+
+  .form-container {
+    padding: 15px;
+  }
+
+  .form-container button {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
+  footer {
+    padding: 10px;
+    font-size: 0.8rem;
+  }
+}
